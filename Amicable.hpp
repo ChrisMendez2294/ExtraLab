@@ -9,14 +9,8 @@
 //==============================================================================================================
 // Global Function Declarations
 //==============================================================================================================
-extern void FindAmicable
-    (
-    ulong pLimit
-    );
+extern void FindAmicable(ulong pLimit);
 
-extern void *FindAmicableThread
-    (
-    void *pState
-    );
+extern void *FindAmicableThread(void *pState);
 
 #endif

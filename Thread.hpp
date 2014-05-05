@@ -24,8 +24,7 @@ typedef void *(*ThreadFunction)(void *);
 //==============================================================================================================
 // Public Function Declarations
 //==============================================================================================================
-ThreadState *StartThread
-    (
+ThreadState *StartThread(
     ThreadFunction const pFunction,  // Pointer to the thread function
     ulong const          pLimit      // Upper limit of numbers to test
     );

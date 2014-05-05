@@ -1,6 +1,6 @@
 #************************************************************************************
 # FILE: Test.sh
-#
+# 
 # Tests the serial and parallel versions of the program and measures the time
 # that each takes to complete.
 #************************************************************************************

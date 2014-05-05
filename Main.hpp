@@ -11,13 +11,8 @@ using std::string;
 //==============================================================================================================
 // Global Function Declarations
 //==============================================================================================================
-extern void Error
-    (
-    std::string const pMsg
-    );
+extern void Error(std::string const pMsg);
 
-extern bool GetVerbose
-    (
-    );
+extern bool GetVerbose();
 
 #endif

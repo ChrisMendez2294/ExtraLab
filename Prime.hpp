@@ -9,14 +9,8 @@
 //==============================================================================================================
 // Global Function Declarations
 //==============================================================================================================
-extern void FindPrimes
-    (
-    ulong pLimit
-    );
+extern void FindPrimes(ulong pLimit);
 
-extern void *FindPrimesThread
-    (
-    void *pState
-    );
+extern void *FindPrimesThread(void *pState);
 
 #endif
