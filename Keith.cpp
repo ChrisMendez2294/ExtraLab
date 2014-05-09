@@ -79,7 +79,10 @@ static bool IsKeith(ulong const pNum){
 	ulong k_array[size];
 
 	//Store the digits of our original number into the array
-	for(int i = 0; size >= 0; --size) k_array[i] = (pNum / pow(10L, size) % 10L);
+	for(int i = n; i >= 0; i--){
+		int tmpNum = pNum / (10*i);
+		k_array[i] = tmpNum % 10;
+	}
 
 	/*******************************************************************
 	* Compute until original value is found, or current value is greater

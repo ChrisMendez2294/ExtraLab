@@ -30,7 +30,7 @@ ThreadState *StartThread(ThreadFunction const pFunction, ulong const pLimit){
 	ThreadState *state;
 	state->mLimit = pLimit;
 	pthread_t threadId;
-	state->mStarted = pthread_create(threadId, 0, pFunction, static_cast<void *> state);
+	state->mStarted = pthread_create(&threadId, 0, pFunction, static_cast<void *>(state));
 	if(state->mStarted == 0) state->mThreadId = threadId;
 	return state;
 }
