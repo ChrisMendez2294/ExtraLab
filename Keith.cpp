@@ -89,7 +89,7 @@ static bool IsKeith(ulong const pNum){
 	* than the original value, at which point we are sure that pNum is
 	* not a Keith number.
 	*******************************************************************/
-	do{
+	do {
 		int sum = 0;
 		for(int i = 0; i <= n; i++) sum = sum + k_array[i];
 		for(int i = 0; i < n; i++) k_array[i] = k_array[i+1];
