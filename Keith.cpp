@@ -42,7 +42,7 @@ void FindKeiths
 //
 // A thread which finds all Keith numbers from 10 to pState->mLimit.
 //--------------------------------------------------------------------------------------------------------------
-void *FindPrimesThread
+void *FindKeithsThread
     (
     void *pState
     )
